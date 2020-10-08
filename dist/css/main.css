@@ -303,11 +303,14 @@ img {
 
 
 .about-self {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
-#about-a .bio-image {
-  grid-area: bio-image; }
+/* #about-a .bio-image {
+  grid-area: bio-image; 
+
+} */
+
 
 #about-a .bio {
   grid-area: bio;
