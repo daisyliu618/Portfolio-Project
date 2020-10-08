@@ -301,6 +301,11 @@ img {
   grid-template-areas: 'bio-image bio bio' 'award-1 award-2 award-3';
   grid-gap: 1.2rem; }
 
+
+.about-self {
+  padding: 1rem;
+}
+
 #about-a .bio-image {
   grid-area: bio-image; }
 

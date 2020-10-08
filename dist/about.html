@@ -38,9 +38,8 @@
                 <img src="img/about.jpg" alt="" class='bio-image'>
                 <div class='bio bg-light'>
                     <h4>Your Project Is In Safe Hands</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cumque necessitatibus, tenetur
-                        cupiditate dignissimos dolorem repellendus, architecto sequi unde ex impedit ipsa aperiam totam?
-                        Alias veritatis velit aliquam quod earum!</p>
+                    <p class='about-self'>As a kid who was always into art and science, I found web development the perfect career since it’s a perfect combination of aesthetics and engineering. Born in China and grew up in the United States,  I have experienced different cultures and always try to think from other people's perspectives. Trained in the best engineering schools in the country, I have established a host of effective web services to facilitate the growth of your business. When I am not coding, I am also into baking, coffee brewery, and playing with my friend's cat.</p>
+                    <Button type="submit" onclick="window.open('DaisyLiuResume.pdf')"  class='btn-dark'>Download My Resume</Button>
                 </div>
                 <div class='award-1'>
                     <i class='fas fa-award fa-3x'></i>
@@ -66,13 +65,17 @@
         <div class='container'>
             <h2 class='section-title'>Technical Skills</h2>
             <div class="bottom-line"></div>
+            <h4>Software Engineering:</h4>
+            <div class='progress'>
+                <div style='width:100%'></div>
+            </div>
             <h4>Web Development:</h4>
             <div class='progress'>
                 <div style='width:100%'></div>
             </div>
             <h4>Graphic Design:</h4>
             <div class='progress'>
-                <div style='width:100%'></div>
+                <div style='width:90%'></div>
             </div>
             <h4>Data Analysis:</h4>
             <div class='progress'>
@@ -80,15 +83,11 @@
             </div>
             <h4>Digital Marketing:</h4>
             <div class='progress'>
-                <div style='width:80%'></div>
-            </div>
-            <h4>Photography::</h4>
-            <div class='progress'>
-                <div style='width:80%'></div>
-            </div>
-            <h4>Magento:</h4>
-            <div class='progress'>
                 <div style='width:70%'></div>
+            </div>
+            <h4>Photography:</h4>
+            <div class='progress'>
+                <div style='width:65%'></div>
             </div>
         </div>
     </section>
@@ -113,42 +112,34 @@
         <div class='container'>
             <h2 class='section-title'>Testimonials</h2>
             <div class='bottom-line'></div>
-            <p class='lead text-center'>Take a look at what my clients say...</p>
+            <p class='lead text-center'>Take a look at what my clients and co-worker say...</p>
             <div class='testimonials'>
                 <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias soluta quibusdam ea ex earum
-                        dicta unde, mollitia non magni architecto sed aliquam molestiae nobis minima nulla fugit est
-                        recusandae numquam.</p>
+                    <p>Excellent, working with Daisy was great.  Thanks to her knowledge and determination our website looks great and functions really good.  I am recommend anyone that is looking for a custom website to give Daisy a call and speak to her, she will guide you to the right direction.</p>
                     <ul>
                         <li><img src="img/testimonials/person1.jpg" alt=""></li>
-                        <li>Sam Smith, New York</li>
+                        <li>Alex Bolivar, New York</li>
                     </ul>
                 </div>
                 <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias soluta quibusdam ea ex earum
-                        dicta unde, mollitia non magni architecto sed aliquam molestiae nobis minima nulla fugit est
-                        recusandae numquam.</p>
+                    <p>Great design team and quick turn around on all projects and request. With her help we have improved our google search results. My company Titan has depended on them for quite sometime now. She is very knowledgeable and they always let us know when a new Google update is coming up before anyone even knows.</p>
                     <ul>
                         <li><img src="img/testimonials/person2.jpg" alt=""></li>
                         <li>Lily Johnson, New York</li>
                     </ul>
                 </div>
                 <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias soluta quibusdam ea ex earum
-                        dicta unde, mollitia non magni architecto sed aliquam molestiae nobis minima nulla fugit est
-                        recusandae numquam.</p>
+                    <p>I have been working with Daisy for the last 5 years. Any changes, updates or modifications I need on the website is always taken care by her. I am very happy with the results and I would recommend them to anyone trying to build a business website. I am honored to be able to express my deep gratitude for her expertise.</p>
                     <ul>
                         <li><img src="img/testimonials/person3.jpg" alt=""></li>
-                        <li>Sara Smith, New York</li>
+                        <li>Matthew Sedaghat, New York</li>
                     </ul>
                 </div>
                 <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias soluta quibusdam ea ex earum
-                        dicta unde, mollitia non magni architecto sed aliquam molestiae nobis minima nulla fugit est
-                        recusandae numquam.</p>
+                    <p>Daisy did a great job of not only creating our website how we wanted it to be, but also gave us great insight on what they believed will help boost sales. Their proven experience and excellence is the reason why our company would recommend her team to anyone who is looking to create a customized website.</p>
                     <ul>
                         <li><img src="img/testimonials/person4.jpg" alt=""></li>
-                        <li>John Smith, Boston</li>
+                        <li>Mary A Burnham, Boston</li>
                     </ul>
                 </div>
             </div>
@@ -161,15 +152,16 @@
 
     <footer id='main-footer'>
         <div class='footer-content container'>
-            <p>Copyright &copy;2019. All Rights Reserved</p>
+            <p>Copyright &copy;2020. All Rights Reserved</p>
             <div class='social'>
-                <i class='fab fa-twitter'></i>
-                <i class='fab fa-facebook'></i>
-                <i class='fab fa-instagram'></i>
-                <i class='fab fa-linkedin'></i>
+                <i class='fab fa-github' onclick="window.open('https://github.com/daisyliu618')" ></i>
+                <i class='fab fa-linkedin' onclick="window.open('https://www.linkedin.com/in/ss-m-89b435120/')"></i>
+                 <i class='fab fa-instagram'  onclick="window.open('https://www.instagram.com/daixs618/')"></i>
+                <i class='fab fa-facebook' onclick="window.open('https://www.facebook.com/profile.php?id=1704202870)" ></i> 
             </div>
         </div>
     </footer>
+
 
 
 
