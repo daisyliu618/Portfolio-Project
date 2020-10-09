@@ -208,7 +208,7 @@ img {
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
-    transition: border-color 0.5s; }
+    transition: boder-color 0.5s; }
     #main-nav a:hover {
       border-color: #ccc; }
     #main-nav a.current {
@@ -239,18 +239,6 @@ img {
     color: #ffbc00;
     padding-bottom: 0.4rem; }
 
-
-#home-a .section:hover .fas {
-  transition:  1s;
-  color: rgb(0, 168, 194);
-  width: 50px;
-  height: 40px;
-  line-height: 40px;
-} 
-
-
-    /* revise */
-
 #home-b .stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr); }
@@ -273,7 +261,6 @@ img {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5rem;
   text-align: center; }
-
   #home-c .process-step {
     position: absolute;
     top: 0;
@@ -287,7 +274,6 @@ img {
     line-height: 15px;
     padding: 1rem;
     transition: all 1s; }
-
   #home-c .process-icon {
     border-radius: 50%;
     background: #333;
@@ -304,7 +290,6 @@ img {
       width: 90px;
       height: 90px;
       line-height: 90px; }
-
       #home-c .process-icon:hover .process-step {
         background: #333;
         color: #fff; }
@@ -320,11 +305,7 @@ img {
 #about-a .bio {
   grid-area: bio;
   border-left: 3px solid #ffbc00;
-  padding: 3rem; }
-
-
-.resume-button {
-  margin-top: 1.5rem; }
+  padding: 0.8rem; }
 
 #about-a .award-1 {
   grid-area: award-1; }
@@ -341,16 +322,6 @@ img {
   color: #ffbc00;
   margin: 1rem; }
 
-
-  #about-a .fas:hover {
-    color: rgb(0, 168, 194);
-     }
-
-     #about-a .section-title:hover {
-      color: rgb(0, 168, 194);
-       }
-
-
 #about-b h4 {
   margin: 0.5rem; }
 
@@ -365,22 +336,6 @@ img {
     color: #fff;
     text-align: center;
     background: #ffbc00; }
-
-
-    #about-b .hover-effect:hover  {
-      color: #ffbc00;
-      font-stretch: expanded;
-    } 
-
-    #about-b .hover-effect:hover  h4{
-      font-size: large;
-      
-    } 
-
-  #about-b .hover-effect:hover .effect {
-    background: rgb(0, 168, 194);
-  } 
-  
 
 #about-c .about-logos {
   display: grid;
@@ -407,26 +362,6 @@ img {
     height: 50px;
     border-radius: 50%;
     margin-right: 0.5rem; }
-
-
-
-.column1 {
-  float: left;
-  width: 45%;
-}
-
-
-.column2 {
-  float: right;
-  width: 45%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 #contact-a .text-fields {
   display: grid;
@@ -480,7 +415,7 @@ img {
       #main-footer .footer-content .social .fab:hover {
         background: #ffbc00; }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   #header-home {
     height: 30rem; }
     #header-home .header-content {
