@@ -47,9 +47,7 @@ input[class^='btn-']:hover {
 
 .lead {
   font-size: 1.3rem;
-  margin-bottom: 2rem;
-  margin-right: 10rem; 
-  margin-left: 10rem;}
+  margin-bottom: 2rem; }
 
 .text-center {
   text-align: center; }
@@ -301,21 +299,13 @@ img {
   grid-template-areas: 'bio-image bio bio' 'award-1 award-2 award-3';
   grid-gap: 1.2rem; }
 
-
-.about-self {
-  padding: 0.5rem;
-}
-
-/* #about-a .bio-image {
-  grid-area: bio-image; 
-
-} */
-
+#about-a .bio-image {
+  grid-area: bio-image; }
 
 #about-a .bio {
   grid-area: bio;
   border-left: 3px solid #ffbc00;
-  padding: 2rem; }
+  padding: 0.8rem; }
 
 #about-a .award-1 {
   grid-area: award-1; }
@@ -425,7 +415,7 @@ img {
       #main-footer .footer-content .social .fab:hover {
         background: #ffbc00; }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   #header-home {
     height: 30rem; }
     #header-home .header-content {
