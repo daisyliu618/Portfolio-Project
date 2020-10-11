@@ -556,9 +556,13 @@ img {
 
 @media (max-width: 800px) {
   #header-home {
+    background-image: url(../img/showcase.jpg);
     height: 30rem; }
     #header-home .header-content {
-      padding-top: 5rem; } }
+      padding-top: 5rem; } 
+    .full {display: none; }
+    
+    }
 
 @media (max-width: 500px) {
   #main-nav {
@@ -570,6 +574,7 @@ img {
       padding: 1rem; }
   #header-home {
     height: 10rem;
+    background-image: url(../img/showcase.jpg);
     border-bottom: 3px solid #ffbc00;
     background-position: 30% 80%; }
     #header-home .header-content {
