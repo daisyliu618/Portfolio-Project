@@ -20,6 +20,26 @@
     pointer-events: none;
   }
 
+  .full {
+    position: absolute;
+    height: 60%;
+    width: 40%;
+    top: 40%;
+    left: -5%;
+    animation: anime 3s ease;
+  }
+  
+  @keyframes anime {
+    0% {
+      left: 50%;
+      opacity: 0;
+    }
+    100% {
+      left: -10%;
+      opacity: 1;
+    }
+  }
+
 
 .btn-main, .btn-light, .btn-dark {
   display: inline-block;
@@ -238,7 +258,7 @@ img {
       border-color: #ffbc00; }
 
 #header-home {
-  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  background: url("../img/background.png") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
