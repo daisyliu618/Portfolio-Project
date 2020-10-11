@@ -34,10 +34,7 @@
       left: 40%;
       opacity: 0;
     }
-    /* 75% {
-      left: -10%;
-      opacity: 1;
-    } */
+  
 
 
     100% {
@@ -270,7 +267,7 @@ img {
   color: #fff; }
   #header-home .header-content {
     text-align: center;
-    padding-top: 20%; }
+    padding-top: 10%; }
 
 
 
